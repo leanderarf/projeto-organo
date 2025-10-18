@@ -1,0 +1,23 @@
+.footer {
+    background: #6278F7;
+    color: #FFF;
+    padding: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin-right: 32px;
+}
+
+.footer ul li :last-child {
+    margin-right: 0;
+}
+
+.footer p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 39px;
+}
